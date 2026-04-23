@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Nuovo Progetto</title>
+    <style>
+        /* Qui c'è il CSS per rendere tutto più bello */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Benvenuto sul mio nuovo sito! 🚀</h1>
+        <p>Questo è il punto di partenza per il mio prossimo grande progetto. Niente farina illegale, solo codice pulito.</p>
+        <button onclick="saluta()">Inizia l'avventura</button>
+    </div>
+
+    <script>
+        function saluta() {
+            alert("Ottimo lavoro! Il tuo primo script funziona alla perfezione.");
+        }
+    </script>
+
+</body>
+</html>
